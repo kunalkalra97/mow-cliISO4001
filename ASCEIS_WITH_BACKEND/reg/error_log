@@ -1,0 +1,74 @@
+[02-Mar-2014 03:30:53] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/asceisic/public_html/reg/show_eve_reg.php on line 123
+[02-Mar-2014 05:11:20] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/asceisic/public_html/reg/show_eve_reg.php on line 125
+[04-Mar-2014 13:31:30] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/asceisic/public_html/reg/show_eve_reg.php on line 125
+[05-Mar-2014 08:05:59] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/asceisic/public_html/reg/ins_dd_inf.php:107) in /home/asceisic/public_html/reg/ins_dd_inf.php on line 133
+[05-Mar-2014 10:35:38] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/asceisic/public_html/reg/show_eve_reg.php on line 125
+[06-Mar-2014 00:18:55] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/asceisic/public_html/reg/ins_dd_inf.php:40) in /home/asceisic/public_html/reg/ins_dd_inf.php on line 133
+[07-Mar-2014 13:26:40] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/asceisic/public_html/reg/ins_dd_inf.php:108) in /home/asceisic/public_html/reg/ins_dd_inf.php on line 133
+[07-Mar-2014 13:27:24] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/asceisic/public_html/reg/ins_dd_inf.php:108) in /home/asceisic/public_html/reg/ins_dd_inf.php on line 133
+[07-Mar-2014 13:30:12] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/asceisic/public_html/reg/ins_dd_inf.php:108) in /home/asceisic/public_html/reg/ins_dd_inf.php on line 133
+[07-Mar-2014 13:49:01] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/asceisic/public_html/reg/ins_dd_inf.php:108) in /home/asceisic/public_html/reg/ins_dd_inf.php on line 133
+[07-Mar-2014 13:49:13] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/asceisic/public_html/reg/ins_dd_inf.php:108) in /home/asceisic/public_html/reg/ins_dd_inf.php on line 133
+[07-Mar-2014 13:59:17] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/asceisic/public_html/reg/ins_dd_inf.php:108) in /home/asceisic/public_html/reg/ins_dd_inf.php on line 133
+[07-Mar-2014 14:10:23] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/asceisic/public_html/reg/ins_dd_inf.php:108) in /home/asceisic/public_html/reg/ins_dd_inf.php on line 133
+[08-Mar-2014 07:46:38] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/asceisic/public_html/reg/show_eve_reg.php on line 125
+[11-Mar-2014 10:28:43] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/asceisic/public_html/reg/show_eve_reg.php on line 125
+[12-Mar-2014 09:09:04] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/asceisic/public_html/reg/show_eve_reg.php on line 125
+[12-Mar-2014 11:25:04] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/asceisic/public_html/reg/show_eve_reg_dd.php on line 125
+[12-Mar-2014 11:26:22] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/asceisic/public_html/reg/show_eve_reg_dd.php on line 125
+[12-Mar-2014 11:49:21] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/asceisic/public_html/reg/show_eve_reg_dd.php on line 125
+[12-Mar-2014 11:50:27] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/asceisic/public_html/reg/show_eve_reg_dd.php on line 125
+[12-Mar-2014 11:50:52] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/asceisic/public_html/reg/show_eve_reg_dd.php on line 125
+[13-Mar-2014 02:39:12] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/asceisic/public_html/reg/show_eve_reg_dd.php on line 125
+[13-Mar-2014 04:05:11] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/asceisic/public_html/reg/show_eve_reg_dd.php on line 125
+[13-Mar-2014 04:45:34] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/asceisic/public_html/reg/show_eve_reg_dd.php on line 125
+[13-Mar-2014 05:38:23] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/asceisic/public_html/reg/show_eve_reg_dd.php on line 125
+[14-Mar-2014 04:36:59] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/asceisic/public_html/reg/show_eve_reg_dd.php on line 125
+[17-Mar-2014 23:41:07] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/asceisic/public_html/reg/show_eve_reg.php on line 125
+[22-Apr-2014 00:44:58] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/asceisic/public_html/reg/show_eve_reg.php on line 125
+[24-Jun-2014 01:38:55] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/asceisic/public_html/reg/show_eve_reg.php on line 125
+[18-Feb-2015 12:53:11 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/asceisic/public_html/reg/check_all.php on line 130
+[19-Feb-2015 05:23:28 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/asceisic/public_html/reg/show_eve_reg.php on line 110
+[20-Feb-2015 02:50:54 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/asceisic/public_html/reg/show_eve_reg.php on line 110
+[21-Feb-2015 12:29:25 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/asceisic/public_html/reg/show_eve_reg.php on line 110
+[21-Feb-2015 12:31:47 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/asceisic/public_html/reg/show_eve_reg.php on line 110
+[21-Feb-2015 12:42:06 America/Chicago] PHP Parse error:  syntax error, unexpected 't' (T_STRING) in /home/asceisic/public_html/reg/show_dd_send.php on line 178
+[21-Feb-2015 12:42:25 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/asceisic/public_html/reg/show_dd_send.php on line 180
+[21-Feb-2015 12:47:44 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/asceisic/public_html/reg/show_eve_reg_dd.php on line 110
+[21-Feb-2015 12:55:09 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/asceisic/public_html/reg/show_eve_reg.php on line 110
+[22-Feb-2015 17:22:07 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/asceisic/public_html/reg/show_eve_reg.php on line 110
+[23-Feb-2015 03:33:54 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/asceisic/public_html/reg/show_eve_reg.php on line 110
+[23-Feb-2015 06:28:14 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/asceisic/public_html/reg/show_eve_reg.php on line 110
+[23-Feb-2015 10:18:53 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/asceisic/public_html/reg/show_eve_reg_dd.php on line 191
+[25-Feb-2015 12:33:43 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/asceisic/public_html/reg/show_eve_reg.php on line 110
+[25-Feb-2015 23:49:19 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/asceisic/public_html/reg/show_eve_reg.php on line 110
+[26-Feb-2015 11:14:14 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/asceisic/public_html/reg/show_eve_reg.php on line 110
+[01-Mar-2015 00:02:31 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/asceisic/public_html/reg/show_eve_reg_dd.php on line 110
+[01-Mar-2015 06:37:40 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/asceisic/public_html/reg/show_eve_reg_dd.php on line 191
+[01-Mar-2015 10:39:38 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/asceisic/public_html/reg/show_eve_reg.php on line 110
+[01-Mar-2015 11:52:59 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/asceisic/public_html/reg/show_eve_reg_dd.php on line 191
+[02-Mar-2015 16:45:55 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/asceisic/public_html/reg/show_eve_reg_dd.php on line 110
+[02-Mar-2015 22:35:10 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/asceisic/public_html/reg/show_eve_reg.php on line 110
+[04-Mar-2015 06:02:18 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/asceisic/public_html/reg/show_eve_reg.php on line 110
+[04-Mar-2015 14:41:54 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/asceisic/public_html/reg/show_eve_reg.php on line 110
+[04-Mar-2015 14:41:59 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/asceisic/public_html/reg/show_eve_reg.php on line 110
+[04-Mar-2015 22:14:06 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/asceisic/public_html/reg/show_eve_reg_dd.php on line 191
+[04-Mar-2015 22:14:28 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/asceisic/public_html/reg/show_eve_reg_dd.php on line 191
+[04-Mar-2015 22:18:07 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/asceisic/public_html/reg/show_eve_reg_dd.php on line 191
+[04-Mar-2015 23:44:14 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/asceisic/public_html/reg/show_eve_reg.php on line 110
+[05-Mar-2015 03:23:56 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/asceisic/public_html/reg/show_eve_reg_dd.php on line 191
+[05-Mar-2015 03:29:34 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/asceisic/public_html/reg/show_eve_reg_dd.php on line 191
+[05-Mar-2015 03:33:45 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/asceisic/public_html/reg/show_eve_reg_dd.php on line 188
+[05-Mar-2015 03:35:44 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/asceisic/public_html/reg/show_eve_reg_dd.php on line 188
+[05-Mar-2015 03:36:17 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/asceisic/public_html/reg/show_eve_reg_dd.php on line 188
+[05-Mar-2015 03:41:41 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/asceisic/public_html/reg/show_eve_reg_dd.php on line 188
+[05-Mar-2015 10:10:08 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/asceisic/public_html/reg/show_eve_reg.php on line 110
+[07-Mar-2015 05:25:42 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/asceisic/public_html/reg/show_eve_reg.php on line 110
+[07-Mar-2015 17:48:57 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/asceisic/public_html/reg/show_eve_reg.php on line 110
+[08-Mar-2015 03:42:39 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/asceisic/public_html/reg/show_eve_reg_dd.php on line 110
+[08-Mar-2015 03:45:29 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/asceisic/public_html/reg/show_eve_reg_dd.php on line 110
+[08-Mar-2015 05:37:47 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/asceisic/public_html/reg/show_eve_reg.php on line 110
+[08-Mar-2015 10:15:38 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/asceisic/public_html/reg/show_eve_reg_dd.php on line 110
+[21-Apr-2015 03:14:21 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/asceisic/public_html/reg/show_eve_reg.php on line 110
+[27-Jul-2015 06:59:35 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/asceisic/public_html/reg/show_eve_reg_dd.php on line 110
+[14-Sep-2015 08:08:00 America/Chicago] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/asceisic/public_html/reg/show_eve_reg_dd.php on line 110
