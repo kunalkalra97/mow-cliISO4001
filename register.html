@@ -7,7 +7,7 @@
     <meta name="keywords" content="ASCE, VIT, canoe, CANOE, Civil">
     <meta name="description" content="">
     <meta name="author" content="Kunal Kalra">
-    <title>Login | ASCE - ICES | VIT</title>
+    <title>Register | ASCE - ICES | VIT</title>
 
     <link rel="icon" href="../../favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -26,12 +26,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
   </head>
-
-  <style>
-
-    .ui.fluid.input>input {
-      margin-bottom: 10px;
-    }
+  
+  <style type="text/css">
 
     .container-fluid {
       padding-left: 0;
@@ -77,14 +73,16 @@
 
     .icons {
       height: 5vh;
+    }
 
+    .ui.fluid.input {
+        margin-bottom: 10px;
     }
 
   </style>
 
   <body>
-
-   <nav class="navbar navbar-inverse">
+  <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -105,39 +103,40 @@
       </ul>
 
       <ul id="navbarRegistrationSignIn" class="nav navbar-nav">
-        <li><a href="register.html">REGISTER</a></li>
-        <li class="active"><a href="login.html">LOG IN</a></li>
+        <li  class="active"><a href="register.html">REGISTER</a></li>
+        <li><a href="login.html">LOG IN</a></li>
       </ul>
       
     </div>
   </div>
-</nav>
+</nav> 
 
-    <div class="container-fluid">
+<div class="container-fluid">
 
     <form>
 
-        <h2 class="ui block header">Login</h2>
+        <h2 class="ui block header">Register</h2>
 
-        <div class="ui fluid icon input">
+        <div class="ui fluid icon input custom">
           <img class="icons" src="./Images/user.png">
-          <input type="text" placeholder="Username">
+          <input type="email" placeholder="Email">
         </div>
 
-        <div class="ui fluid action input">
+        <div class="ui fluid action input custom">
             <img  class="icons" src="./Images/lock.png">
-            <input type="passsword" placeholder="Password">
+            <input type="password" placeholder="Password">
+        </div>
+
+        <div class="ui fluid action input custom">
+            <img  class="icons" src="./Images/lock.png">
+            <input type="password" placeholder="Retype Password">
         </div>
 
         <input class="fluid ui button" value="Submit" type="submit">
 
-        <h2 class="ui block header customField">New to us? &nbsp;&nbsp;<a href="register.html">Register</a></h2>
-
       </form>
 
-    </div>
-
-    <footer>
+      <footer>
         
         <div class="col-lg-12">
           
@@ -156,8 +155,7 @@
         <br>
       </footer>
 
+</div>
 
-    
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>

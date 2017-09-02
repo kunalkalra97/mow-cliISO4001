@@ -32,17 +32,45 @@
 
   <style >
 
-    #myCarousel {
-      z-index: -999;
-    }
-      
-    #myCarousel img {
-      height:120vh;
-    }
+      @font-face {
+        src : url('./Roboto-Thin.ttf');
+        font-family: roboto;
+      }
+
+      .backgroundImage, .backgroundImage img {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: -999;
+        width: 100vw;
+      }
+
+      .textContainer {
+        margin-top: 30vh;
+        color: white;
+        background-color: black;
+        opacity: 0.8;
+        width: 80%;
+        margin-left: 10%;
+        padding: 35px;
+        font-size: 22px;
+        font-family: roboto;
+        line-height: 34px;
+      }
+
+      nav {
+        top: 0;
+      }
 
   </style>
 
   <body>
+
+  <div class="backgroundImage">
+  <img src="./images/canoe2.jpg">
+</div>
 
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
@@ -57,7 +85,7 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul id="navbarMenu" class="nav navbar-nav">
         <li><a href="aboutus.html">ABOUT ASCE</a></li>
-        <li><a href="canoe.html">CANOE COMPETITION</a></li>
+        <li class="active"><a href="canoe.html">CANOE COMPETITION</a></li>
         <li><a href="conference.html">CONFERENCE</a></li>
         <li><a href="workshop.html">WORKSHOP</a></li>
         <li><a href="blog.html">BLOG</a></li>
@@ -74,28 +102,15 @@
 </nav>
 
 
-<!--Carousel-->
-
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
+<div class="textContainer">
   
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-  </ol>
+  The ASCE Concrete Canoe Competition
 
-  <div class="carousel-inner">
-    <div class="item active">
-      <img src="./images/back.jpg" alt="Los Angeles">
-    </div>
-
-    <div class="item">
-      <img src="./images/back2.jpg" alt="Chicago">
-    </div>
+  The American Society of Civil Engineers (ASCE) National Concrete Canoe Competition (NCCC) first paddled to a beginner in 1971 and is presently taken an interest by more than 200 groups from over the world. Groups from adored colleges like UC Berkeley, the University of Wisconsin in Madison and Michigan State University among others in the competition. For the first time it's being held outside the USA, with ASCE-VIT in association with VIT-SCALE is taking the command for conducting it in India for the first time. A canoe that must be made of cement is a test in itself – one that should be overcome by
+  remembering a few variables including what impacts the canoe weight. The last point is, obviously to fabricate one that is as light as would be prudent. The procedure to manufacture one begins with the blend outline of the solid. This is an essential stage as the piece of the solid is resolved in this progression.<br><br>
+  Civil engineering enthusiast and students from various top colleges and university across the country will be partaking in the opposition. taking the command for conducting it in India for the first time.
 
 </div>
-
-
-
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
