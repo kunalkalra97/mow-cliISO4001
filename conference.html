@@ -29,56 +29,38 @@
 
   <style>
 
-    @font-face {
-        src : url('./Roboto-Regular.ttf');
+
+      .jumbotron{
+        background-image: url(./Images/bg4.png);
+        background-position-y: 450px;
+        height: 40vh;
+      }
+
+      .jumbotron h1 {
+        margin-top: 5vh;
         font-family: roboto;
       }
 
-      @font-face {
-        src : url('./Roboto-Thin.ttf');
+      .jumbotron p {
+        line-height: 32px;
+      }
+
+      .ui.raised.card {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 5vh;
+      }
+
+      .ui.raised.card span {
         font-family: roboto-thin;
-      }
-    
-    .backgroundImage, .backgroundImage img {
-      position: fixed;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      width: 100vw;
-      z-index: -100;
-    }
-
-    nav {
-      top: 0;
-      z-index: 100;
-    }
-
-
-      .textContainer {
-        margin-top: 10vh;
-        color: black;
-        font-size: 40px;
-        background-color: lightgray;
-        opacity: 0.8;
-        padding: 35px;
-        font-family: roboto;
-        font-weight: bold;
-
-      }
-
-      .textContainer p {
         font-size: 18px;
-        font-family: roboto;
-        line-height: 36px;
-        margin-top: 10px;
-        font-weight: 300;
+        color: black;
+        font-weight: 550;
       }
 
-      h3 {
-        font-size: 34px;
-        margin: 0;
-        font-weight: bold;
+      .ui.card>.content>.header:not(.ui) {
+        font-size: 28px;
+        margin-bottom: 5px;
       }
 
   </style>
@@ -100,7 +82,6 @@
         <li><a href="canoe.html">CANOE COMPETITION</a></li>
         <li class="active"><a href="conference.html">CONFERENCE</a></li>
         <li><a href="workshop.html">WORKSHOP</a></li>
-        <li><a href="blog.html">BLOG</a></li>
         <li><a href="events.html">EVENTS</a></li>        
       </ul>
 
@@ -113,37 +94,43 @@
   </div>
 </nav>
 
-<div class="backgroundImage">
-  <img src="./Images/conference2.jpg">
+<div class="jumbotron">
+  <div class="container">
+    <h1>ICES</h1>
+    <p style="text-align: center;">International Civil Engineering Symposium (ICES),is a yearly specialized fest by SCALE (School of Civil and Chemical Engineering) of the Vellore Institute of Technology. It is a symposium typically held amid the long stretch of March each year. ICES organized by ASCE-VIT (in a joint effort with the American Society of Civil Engineers India segment) of VIT University is one of the largest get-together of Civil Engineers from all of India and abroad.</p>
+  </div>
 </div>
 
-<div class="wow bounceInUp textContainer">
+<div class="ui raised card">
+  <div class="content">
+    <div class="header">ICES CONFERENCE</div>
+    <div class="meta">
+      <span class="category">
+          ASCE-VIT in collaboration with SCALE-VIT, conducts conference, which covered fields like: water treatment, hydrological processes in natural and urban environment, soil and ground water remediation, water reuse, contemporary water quality issues, hydrology in the field of water resources.<br><br> 
+        Environmental engineering forms an important field in civil, thus themes like alternative energy and their environmental impacts, environmental biotechnology, Biotransformation and fate of environmental contaminants, Air quality: air pollution, Energy and environmental impacts  of infrastructure systems, Sustainable transportation planning, Sustainable environment, Reliability and risk analysis, pollutant transport and contaminant Transport Modelling were included.<br><br>
+         An interesting and relatively new field, information technology in construction has also been included, thus encouraging progressive Civil stream positions itself on central subjects like structural, earthquake, and geotechnical and transport engineering, and hence included in the conference.
+      </span>
+    </div>
+    <div class="description">
+      <p></p>
+    </div>
+  </div>
   
-  <h3>ICES</h3>
-  <p>
-  International Civil Engineering Symposium (ICES),is a yearly specialized fest by SCALE(School of Civil and Chemical Engineering) of the Vellore Institute of Technology. It is a symposium typically held amid the long stretch of March each year. ICES organized by ASCE-VIT (in a joint effort with the American Society of Civil Engineers India segment) of VIT University is one of the largest get-together of Civil Engineers from all of India and abroad.
-<p>
-
 </div>
 
-<div class="wow bounceInLeft textContainer">
+<div class="ui raised card">
+  <div class="content">
+    <div class="header">KEYNOTE SPEAKERS</div>
+    <div class="meta">
+      <span class="category">
+        Various keynotes speakers would be present at the conference, with imminent professors and industry experts joining us. 
+      </span>
+    </div>
+    <div class="description">
+      <p></p>
+    </div>
+  </div>
   
-  <h3>ICES CONFERENCE</h3>
-  <p>
-  ASCE-VIT in collaboration with SCALE-VIT, conducts conference, which covered fields like: water treatment, hydrological processes in natural and urban environment, soil and ground water remediation, water reuse, contemporary water quality issues, hydrology in the field of water resources.<br><br> 
-Environmental engineering forms an important field in civil, thus themes like alternative energy and their environmental impacts, environmental biotechnology, Biotransformation and fate of environmental contaminants, Air quality: air pollution, Energy and environmental impacts  of infrastructure systems, Sustainable transportation planning, Sustainable environment, Reliability and risk analysis, pollutant transport and contaminant Transport Modelling were included.<br><br>
- An interesting and relatively new field, information technology in construction has also been included, thus encouraging progressive Civil stream positions itself on central subjects like structural, earthquake, and geotechnical and transport engineering, and hence included in the conference. 
-<p>
-
-</div>
-
-<div class="wow bounceInRight textContainer">
-  
-  <h3>KEYNOTE SPEAKERS</h3>
-  <p>
-  Various keynotes speakers would be present at the conference, with imminent professors and industry experts joining us. 
-<p>
-
 </div>
 
 <script type="text/javascript" src="./js/wow.min.js"></script>
@@ -151,6 +138,25 @@ Environmental engineering forms an important field in civil, thus themes like al
 <script type="text/javascript">
       new WOW().init();
 </script>
+
+<footer>
+        
+        <div class="col-lg-12">
+          
+          <button class="ui circular facebook icon button">
+              <img src="./Images/facebook-logo.png">
+          </button>
+
+
+          <button class="ui circular instagram icon button">
+              <img src="./Images/instagram-logo.png">      
+          </button>
+
+        </div>
+
+        <p id="legal">All rights reserved &copy; 2017</p>
+        <br>
+      </footer>
 
 </body>
 </html>

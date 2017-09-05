@@ -1,3 +1,13 @@
+@font-face {
+	src: url('./Roboto-Regular.ttf');
+	font-family: roboto;
+}
+
+@font-face {
+	src: url('./Roboto-Thin.ttf');
+	font-family: roboto-thin;
+}
+
 #asce-logo {
 	padding: 5px 5px 5px 20px;
 }
@@ -8,30 +18,35 @@
 }
 
 #navbarRegistrationSignIn {
-	margin-left: 25%;
+	margin-left: 20vw;
 }
 
 body {
   padding-bottom: 20px;
 }
 
-ul.nav,.jumbotron h1{
-	font-family: 'Arvo', courier , serif;
+ul.nav,.jumbotron h1, .jumbotron h4{
+	font-family: roboto;	
 }
-ul.nav{
-	font-size: 13px;
 
+.jumbotron h1 {
+	font-size: 30px;
+	font-family: roboto-thin;
 }
+
+.jumbotron h4 {
+	font-size: 44px;
+	font-family: roboto;
+}
+
 .jumbotron{
 	text-align: center; 
-	background: url(../images/civil.jpg);
-	    background-size: 1391px;
-    background-position-y: -325px;
+	background-image: url(../images/bg2.jpg);
+    background-position-y: -500px;
+    height: 35vh;
+    color: white;
 } 
-.jumbotron {
-	color: white;
 
-}
 #get-involved {
 	background-color: #f5f5f5;
 }
@@ -44,7 +59,6 @@ ul.nav{
 
 .jumbotron h1{
 	margin-top: 0px;
-	margin-bottom: 50px;
 }
 
 
@@ -54,7 +68,6 @@ ul.nav{
 	padding: 0 50px;
 
 }
-
 
 .row h2 {
 	color: red;

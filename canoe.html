@@ -32,62 +32,45 @@
 
   <style >
 
-      @font-face {
-        src : url('./Roboto-Regular.ttf');
+      .jumbotron{
+        background-image: url(./Images/canoe2.jpg);
+        background-position-y: 450px;
+        background-position-x: -450px;
+        height: 40vh;
+      }
+
+      .jumbotron h4 {
+        margin-top: 5vh;
         font-family: roboto;
       }
 
-      @font-face {
-        src : url('./Roboto-Thin.ttf');
+      .jumbotron p {
+        line-height: 32px;
+      }
+
+      .ui.raised.card {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 10vh;
+      }
+
+      .ui.raised.card span {
         font-family: roboto-thin;
-      }
-
-      .backgroundImage, .backgroundImage img {
-        position: fixed;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        z-index: -999;
-        width: 100vw;
-      }
-
-      .textContainer {
-        margin-top: 15vh;
+        font-size: 18px;
         color: black;
-        font-size: 40px;
-        background-color: white;
-        opacity: 0.8;
-        padding: 35px;
-        font-family: roboto;
-        font-weight: bold;
-
+        font-weight: 550;
       }
-
-      .textContainer p {
-        font-size: 20px;
-        font-family: roboto-thin;
-        line-height: 36px;
-        margin-top: 10px;
-      }
-
-      h3 {
-        font-size: 34px;
-        margin: 0;
-        font-weight: bold;
-      }
+      
 
       nav {
         top: 0;
+        z-index: 100;
       }
 
   </style>
 
   <body>
 
-  <div class="backgroundImage">
-  <img src="./images/canoe2.jpg">
-</div>
 
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
@@ -105,7 +88,6 @@
         <li class="active"><a href="canoe.html">CANOE COMPETITION</a></li>
         <li><a href="conference.html">CONFERENCE</a></li>
         <li><a href="workshop.html">WORKSHOP</a></li>
-        <li><a href="blog.html">BLOG</a></li>
         <li><a href="events.html">EVENTS</a></li>        
       </ul>
 
@@ -118,21 +100,52 @@
   </div>
 </nav>
 
-
-<div class="textContainer">
-  
-  <h3>ASCE Concrete Canoe Competition</h3>
-  <p>
-  The American Society of Civil Engineers (ASCE) National Concrete Canoe Competition (NCCC) first paddled to a beginner in 1971 and is presently taken an interest by more than 200 groups from over the world. Groups from adored colleges like UC Berkeley, the University of Wisconsin in Madison and Michigan State University among others in the competition. For the first time it's being held outside the USA, with ASCE-VIT in association with VIT-SCALE is taking the command for conducting it in India for the first time. A canoe that must be made of cement is a test in itself – one that should be overcome by
-  remembering a few variables including what impacts the canoe weight. The last point is, obviously to fabricate one that is as light as would be prudent. The procedure to manufacture one begins with the blend outline of the solid. This is an essential stage as the piece of the solid is resolved in this progression.<br>
-  Civil engineering enthusiast and students from various top colleges and university across the country will be partaking in the opposition. taking the command for conducting it in India for the first time.<p>
-
+<div class="jumbotron">
+  <div class="container">
+    <h4>ASCE Concrete Canoe Competition</h4>
+  </div>
 </div>
+
+<div class="ui raised card">
+  <div class="content">
+    <div class="meta">
+      <span class="category">
+        The American Society of Civil Engineers (ASCE) National Concrete Canoe Competition (NCCC) first paddled to a beginner in 1971 and is presently taken an interest by more than 200 groups from over the world. Groups from adored colleges like UC Berkeley, the University of Wisconsin in Madison and Michigan State University among others in the competition. For the first time it's being held outside the USA, with ASCE-VIT in association with VIT-SCALE is taking the command for conducting it in India for the first time. A canoe that must be made of cement is a test in itself – one that should be overcome by
+          remembering a few variables including what impacts the canoe weight. The last point is, obviously to fabricate one that is as light as would be prudent. The procedure to manufacture one begins with the blend outline of the solid. This is an essential stage as the piece of the solid is resolved in this progression.<br>
+          Civil engineering enthusiast and students from various top colleges and university across the country will be partaking in the opposition. taking the command for conducting it in India for the first time. 
+      </span>
+    </div>
+    <div class="description">
+      <p></p>
+    </div>
+  </div>
+  
+</div>
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="../../dist/js/bootstrap.min.js"></script>
     <script src="../../assets/js/vendor/holder.min.js"></script>
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+    <footer>
+        
+        <div class="col-lg-12">
+          
+          <button class="ui circular facebook icon button">
+              <img src="./Images/facebook-logo.png">
+          </button>
+
+
+          <button class="ui circular instagram icon button">
+              <img src="./Images/instagram-logo.png">      
+          </button>
+
+        </div>
+
+        <p id="legal">All rights reserved &copy; 2017</p>
+        <br>
+      </footer>
   </body>
 </html>

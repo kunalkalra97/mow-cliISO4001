@@ -29,7 +29,81 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>
 
-  <style></style>
+  <style>
+
+    *:focus {
+      outline: none;
+    }
+
+    .newContainer {
+      position: relative;
+    }
+
+    .image {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: black;
+      overflow: hidden;
+      font-family: roboto-thin;
+      opacity: 0.7;
+      width: 100%;
+      height: 0;
+      transition: .5s ease;
+    }
+
+    .newContainer:hover .overlay {
+      height: 100%;
+    }
+
+    .text {
+      white-space: nowrap; 
+      color: white;
+      font-size: 18px;
+      position: absolute;
+      overflow: hidden;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+    }
+
+    .flexboxRow {
+      display: flex;
+      justify-content: space-around;
+      width: 80%;
+      margin-left: 10%;
+      margin-top: 10vh;
+    }
+
+
+    .col-sm-3 button {
+
+      font-family: HelveticaNeue-Light;
+      color: #D73535;
+      letter-spacing: -0.75px;
+      width: 100%;
+      border: none;
+      color: black;
+      background-color: white;
+      padding: 10px;
+      margin-top: 1vh;
+    }
+
+    .ui.basic.modal {
+      text-align: center;
+      font-family: roboto-thin;
+    }
+
+
+  </style>
 
   <body>
 
@@ -49,7 +123,6 @@
         <li><a href="canoe.html">CANOE COMPETITION</a></li>
         <li><a href="conference.html">CONFERENCE</a></li>
         <li><a href="workshop.html">WORKSHOP</a></li>
-        <li><a href="blog.html">BLOG</a></li>
         <li class="active"><a href="events.html">EVENTS</a></li>        
       </ul>
 
@@ -67,191 +140,147 @@
 
     <div class="jumbotron">
       <div class="container">
-        <h4 style="    margin-top: 157px;font-size:53px;font-family: 'Alegreya', serif;">Events</h4>
-        <h1 style="margin-top: -11px;font-size:30px; font-family: 'Alegreya', serif;" >ASCE organizes various events throughout the year, some of them being Contraption, CMT, Zenga Reloaded, Mighty boat, Zenith and lots of them. </h1>    
-      </div>
-    </div>
-    <!--div class="jumbotron1" style="    background-color: #f7f0e4;
-    padding-top: 2px;
-    padding-bottom: 8px;    margin-left: 61px;
-    margin-right: 66px;">
-      <div class="container1" style="    margin-left: 21px;">
-        <h4 style="font-size:26px;font-family: 'Alegreya', serif;">ENVIRONMENTAL ENGINEERING    </h4>
-        <h1 style="font-size:22px; font-family: 'Alegreya', serif;" >The objective is to design and build a treatment process for removal of particles and organics from the water source.   </h1>    
-      </div>
-    </div>
-    <div class="jumbotron1" style="    background-color: #b1e5ff
-    padding-top: 2px;
-    padding-bottom: 8px;    margin-left: 61px;
-    margin-right: 66px;">
-      <div class="container1" style="    margin-left: 21px;">
-        <h4 style="font-size:26px;font-family: 'Alegreya', serif;">FRESH MORE CHALLENGE</h4>
-        <h1 style="font-size:22px; font-family: 'Alegreya', serif;" >A event is designed to give each school a flagpole to fly their own colours at  the conference and show some school spirit.   </h1>    
-      </div>
-    </div>
-    <div class="jumbotron2" style="background-color: #f7f0e4;
-    padding-top: 2px;
-    padding-bottom: 8px;    margin-left: 61px;
-    margin-right: 66px;">
-      <div class="container2" style="    margin-left: 21px;">
-        <h4 style="font-size:26px;font-family: 'Alegreya', serif;">QUIZ BOWL</h4>
-        <h1 style="font-size:22px; font-family: 'Alegreya', serif;" >The objective is to design and build a treatment process for removal of particles and organics from the water source.  </h1>    
-      </div>
-    </div>
-    <div class="jumbotron3" style="    background-color:#b1e5ff
-    padding-top: 2px;
-    padding-bottom: 8px;    margin-left: 61px;
-    margin-right: 66px;">
-      <div class="container3" style="    margin-left: 21px;">
-        <h4 style="font-size:26px;font-family: 'Alegreya', serif;">CONCRETE BASKETBALL BAT</h4>
-        <h1 style="font-size:22px; font-family: 'Alegreya', serif;" >Teams will design and construct a baseball bat made of concrete.    </h1>    
-      </div>
-    </div>
-    <div class="jumbotron4" style="background-color: #f7f0e4;
-    padding-top: 2px;
-    padding-bottom: 8px;    margin-left: 61px;
-    margin-right: 66px;">
-      <div class="container4" style="    margin-left: 21px;">
-        <h4 style="font-size:26px;font-family: 'Alegreya', serif;">SURVEYING</h4>
-        <h1 style="font-size:22px; font-family: 'Alegreya', serif;" >This competition is to test teams on basic surveying techniques such as distance measurements, levelling, and traversing.  </h1>    
-      </div>
-    </div>
-      <div class="jumbotron1" style="    background-color: #b1e5ff
-    padding-top: 2px;
-    padding-bottom: 8px;    margin-left: 61px;
-    margin-right: 66px;">
-      <div class="container1" style="    margin-left: 21px;">
-        <h4 style="font-size:26px;font-family: 'Alegreya', serif;">ARCH BRIDGE</h4>
-        <h1 style="font-size:22px; font-family: 'Alegreya', serif;" >The Participants have to build a bridge over the arch without using cement in a given time.  </h1>    
-      </div>
-    </div>
-     <div class="jumbotron4" style="background-color: #f7f0e4;
-    padding-top: 2px;
-    padding-bottom: 8px;    margin-left: 61px;
-    margin-right: 66px;">
-      <div class="container4" style="    margin-left: 21px;">
-        <h4 style="font-size:26px;font-family: 'Alegreya', serif;">TRANSPORTATION
-</h4>
-        <h1 style="font-size:22px; font-family: 'Alegreya', serif;" >Teams will be presented a transportation problem and asked to develop a solution.</h1>    
-      </div>
-    </div>
-      <div class="jumbotron1" style="    background-color: #b1e5ff
-    padding-top: 2px;
-    padding-bottom: 8px;    margin-left: 61px;
-    margin-right: 66px;">
-      <div class="container1" style="    margin-left: 21px;">
-        <h4 style="font-size:26px;font-family: 'Alegreya', serif;">SUSTAINABLE CITY PLAN</h4>
-        <h1 style="font-size:22px; font-family: 'Alegreya', serif;" >The objective is to design and build a treatment process for removal of particles and organics from the water source.  </h1>    
-      </div>
-    </div>
- 
-      <div class="jumbotron1" style="    background-color: #f7f0e4;
-    padding-top: 2px;
-    padding-bottom: 8px;    margin-left: 61px;
-    margin-right: 66px;">
-      <div class="container1" style="    margin-left: 21px;">
-        <h4 style="font-size:26px;font-family: 'Alegreya', serif;">ARCHITECTURE DESIGN EVENT</h4>
-        <h1 style="font-size:22px; font-family: 'Alegreya', serif;" >Aakaar is an architectural design competition meant for Civil Engineering and Architecture Students. </h1>    
-      </div>
-    </div>
-     <div class="jumbotron4" style="background-color: #b1e5ff
-    padding-top: 2px;
-    padding-bottom: 8px;    margin-left: 61px;
-    margin-right: 66px;">
-      <div class="container4" style="    margin-left: 21px;">
-        <h4 style="font-size:26px;font-family: 'Alegreya', serif;">MEAD PAPER</h4>
-        <h1 style="font-size:22px; font-family: 'Alegreya', serif;" >Submission of written material on any given topic and the selected candidates will present a presentation in the conference.   </h1>    
+        <h4>EVENTS</h4>
+        <h1>ASCE organizes various events throughout the year, some of them being Contraption, CMT, Zenga Reloaded, Mighty boat, Zenith and lots of them. </h1>    
       </div>
     </div>
 
+  <div class="row flexboxRow">
 
-      <div class="jumbotron4" style="background-color: #f7f0e4;
-    padding-top: 2px;
-    padding-bottom: 8px;    margin-left: 61px;
-    margin-right: 66px;">
-      <div class="container4" style="    margin-left: 21px;">
-        <h4 style="font-size:26px;font-family: 'Alegreya', serif;">CONSTRUCTION MANAGEMENT</h4>
-        <h1 style="font-size:22px; font-family: 'Alegreya', serif;" > The Workshop on Concrete Technology</h1>    
-      </div>
-    </div> -->
+    <div class="col-sm-3">
+      <div class="newContainer active">
+              <img src="./Images/img_avatar.png" class="image">
+              <div class="overlay">
+                  <div class="text">Event Description Comes here</div>
+              </div>
+          </div>
 
-    <br><br><br>
+          <button>EVENT 1</button>
+
+    </div>
+    <div class="col-sm-3">
+      <div class="newContainer">
+              <img src="./Images/img_avatar.png" class="image">
+              <div class="overlay">
+                  <div class="text">Event Description Comes here</div>
+              </div>
+          </div>
+          <button>EVENT 2</button>
+    </div>
+    <div class="col-sm-3">
+      <div class="newContainer">
+              <img src="./Images/img_avatar.png" class="image">
+              <div class="overlay">
+                  <div class="text">Event Description Comes here</div>
+              </div>
+          </div>
+          <button>EVENT 3</button>
+    </div>
+    <div class="col-sm-3">
+      <div class="newContainer">
+              <img src="./Images/img_avatar.png" class="image">
+              <div class="overlay">
+                  <div class="text">Event Description Comes here</div>
+              </div>
+          </div>
+          <button>EVENT 4</button>
+    </div>
     
-  <div class="ui styled fluid accordion">
+  </div>
 
-    <div class="title">
-      <i class="dropdown icon"></i>
-      FRESH MORE CHALLENGE
+  <div class="row flexboxRow">
+
+    <div class="col-sm-3">
+      <div class="newContainer active">
+              <img src="./Images/img_avatar.png" class="image">
+              <div class="overlay">
+                  <div class="text">Event Description Comes here</div>
+              </div>
+          </div>
+
+          <button>EVENT 5</button>
+
+    </div>
+    <div class="col-sm-3">
+      <div class="newContainer">
+              <img src="./Images/img_avatar.png" class="image">
+              <div class="overlay">
+                  <div class="text">Event Description Comes here</div>
+              </div>
+          </div>
+          <button>EVENT 6</button>
+    </div>
+    <div class="col-sm-3">
+      <div class="newContainer">
+              <img src="./Images/img_avatar.png" class="image">
+              <div class="overlay">
+                  <div class="text">Event Description Comes here</div>
+              </div>
+          </div>
+          <button>EVENT 7</button>
+    </div>
+    <div class="col-sm-3">
+      <div class="newContainer">
+              <img src="./Images/img_avatar.png" class="image">
+              <div class="overlay">
+                  <div class="text">Event Description Comes here</div>
+              </div>
+          </div>
+          <button>EVENT 8</button>
+    </div>
+    
+  </div>
+
+  <div class="ui basic modal">
+    <div class="ui icon header">
     </div>
     <div class="content">
-      <p class="transition hidden">A event is designed to give each school a flagpole to fly their own colours at  the conference and show some school spirit.</p>
+      <h1>Event Name</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
-    <div class="title">
-      <i class="dropdown icon"></i>
-      ENVIRONMENTAL ENGINEERING
+    <div class="actions">
+      <div class="ui red basic cancel inverted button">
+        Close
+      </div>
     </div>
-    <div class="content">
-      <p class="transition hidden">The objective is to design and build a treatment process for removal of particles and organics from the water source. </p>
-    </div>
-    <div class="title">
-      <i class="dropdown icon"></i>
-      QUIZ BOWL
-    </div>
-    <div class="content">
-      <p class="transition hidden">The objective is to design and build a treatment process for removal of particles and organics from the water source. </p>
-    </div>
-  
-    <div class="title">
-      <i class="dropdown icon"></i>
-      CONCRETE BASKETBALL BAT
-    </div>
-    <div class="content">
-      <p>Teams will design and construct a baseball bat made of concrete.</p>
-    </div>
-
-    <div class="title">
-    <i class="dropdown icon"></i>
-    SURVEYING
   </div>
-  <div class="content">
-    <p class="transition hidden">This competition is to test teams on basic surveying techniques such as distance measurements, levelling, and traversing.</p>
-  </div>
-
-  <div class="title">
-    <i class="dropdown icon"></i>
-    TRANSPORTATION
-  </div>
-  <div class="content">
-    <p class="transition hidden">A event is designed to give each school a flagpole to fly their own colours at  the conference and show some school spirit.</p>
-  </div>
-
-  <div class="title">
-    <i class="dropdown icon"></i>
-    FRESH MORE CHALLENGE
-  </div>
-  <div class="content">
-    <p class="transition hidden">A event is designed to give each school a flagpole to fly their own colours at  the conference and show some school spirit.</p>
-  </div>
-
-  <div class="title">
-    <i class="dropdown icon"></i>
-    FRESH MORE CHALLENGE
-  </div>
-  <div class="content">
-    <p class="transition hidden">A event is designed to give each school a flagpole to fly their own colours at  the conference and show some school spirit.</p>
-  </div>
-  </div>
-
-<br><br><br>
-
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript" src="./js/semantic.min.js"></script>
 <script type="text/javascript">
-  $(document).ready(function(){
-                $('.ui.accordion').accordion();
-             });
+  
+  var eventCard = $('.col-sm-3');
+
+  eventCard.click(function() {
+    $('.ui.basic.modal').modal('show');  
+  });
+
+  
+
 </script>
+<footer>
+  
+  <div class="col-lg-12">
+    
+    <button class="ui circular facebook icon button">
+        <img src="./Images/facebook-logo.png">
+    </button>
+
+
+    <button class="ui circular instagram icon button">
+        <img src="./Images/instagram-logo.png">      
+    </button>
+
+  </div>
+
+  <p id="legal">All rights reserved &copy; 2017</p>
+  <br>
+</footer>
 
 </body>
 </html>
