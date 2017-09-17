@@ -64,7 +64,7 @@
     }
 
     .text {
-      white-space: nowrap; 
+      width: 90%;
       color: white;
       font-size: 18px;
       position: absolute;
@@ -73,7 +73,14 @@
       left: 50%;
       transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
+      font-size: 16px;
     }
+
+    #longerText {
+      width: 95%;
+      font-size: 14px
+    }
+
 
     .flexboxRow {
       display: flex;
@@ -88,7 +95,6 @@
 
       font-family: HelveticaNeue-Light;
       color: #D73535;
-      letter-spacing: -0.75px;
       width: 100%;
       border: none;
       color: black;
@@ -102,6 +108,7 @@
       font-family: roboto-thin;
     }
 
+    
 
   </style>
 
@@ -141,107 +148,131 @@
     <div class="jumbotron">
       <div class="container">
         <h4>EVENTS</h4>
-        <h1>ASCE organizes various events throughout the year, some of them being Contraption, CMT, Zenga Reloaded, Mighty boat, Zenith and lots of them. </h1>    
+        <h1>"Winners are not those who fail, but those who never try."</h1>    
       </div>
     </div>
 
   <div class="row flexboxRow">
 
-    <div class="col-sm-3">
+    <div class="col-sm-3 envocist">
       <div class="newContainer active">
               <img src="./Images/img_avatar.png" class="image">
               <div class="overlay">
-                  <div class="text">Event Description Comes here</div>
+                  <div class="text" id="longerText">Have you ever known how pure is the water coming in your households, offices etc.? Have you ever desired of making a plan, process efficient enough to remove unwanted particles and judge the quality of water? We provide you a platform to complete one on your own and compete with best minds across the country.</div>
               </div>
           </div>
 
-          <button>EVENT 1</button>
+          <button>Envocist</button>
 
     </div>
-    <div class="col-sm-3">
+    <div class="col-sm-3 freshMoreChallenge">
       <div class="newContainer">
               <img src="./Images/img_avatar.png" class="image">
               <div class="overlay">
-                  <div class="text">Event Description Comes here</div>
+                  <div class="text">How about mixing the game of deductions and mysteries with the field of civil engineering? Doesn’t it sound exciting?  We give you a chance to demonstrate the inner Sherlock in you and win big! Can it get more fascinating?</div>
               </div>
           </div>
-          <button>EVENT 2</button>
+          <button>Fresh more Challenge</button>
     </div>
-    <div class="col-sm-3">
+    <div class="col-sm-3 quizBowl">
       <div class="newContainer">
               <img src="./Images/img_avatar.png" class="image">
               <div class="overlay">
-                  <div class="text">Event Description Comes here</div>
+                  <div class="text">A challenge for students who think they have acquired the fundamentals of civil engineering. Different rounds, different challenges testing the civil engineer in you.</div>
               </div>
           </div>
-          <button>EVENT 3</button>
+          <button>Quiz Bowl</button>
     </div>
-    <div class="col-sm-3">
+    <div class="col-sm-3 concreteBaseballBat">
       <div class="newContainer">
               <img src="./Images/img_avatar.png" class="image">
               <div class="overlay">
-                  <div class="text">Event Description Comes here</div>
+                  <div class="text">Consider yourself a baseball freak? Strong technical skills in the field of civil engineering? You have a good shot at winning this challenge. Have a go at one of the rare events where you have to be sporty and geeky at the same time!</div>
               </div>
           </div>
-          <button>EVENT 4</button>
+          <button>Concrete Baseball Bat</button>
     </div>
     
   </div>
 
   <div class="row flexboxRow">
 
-    <div class="col-sm-3">
+    <div class="col-sm-3 surveyorChallenge">
       <div class="newContainer active">
               <img src="./Images/img_avatar.png" class="image">
               <div class="overlay">
-                  <div class="text">Event Description Comes here</div>
+                  <div class="text">We, the civil engineers are always judged by the marks we score in Surveying. So do you think you are the best in the country? Need a platform to prove yourself? We provide you exhaustive rounds of hardcore surveying, which will test even the best of the people. Are you ready to take the challenge? We wait.</div>
               </div>
           </div>
 
-          <button>EVENT 5</button>
+          <button>Surveyor Challenge</button>
 
     </div>
-    <div class="col-sm-3">
+    <div class="col-sm-3 sustainableDesignChallenge">
       <div class="newContainer">
               <img src="./Images/img_avatar.png" class="image">
               <div class="overlay">
-                  <div class="text">Event Description Comes here</div>
+                  <div class="text" id="longerText">You are the only civil engineer who has been sent to mars to help design structures. Emerge a hero and help the world fight this crisis, with challenges like alien surroundings, no connectivity etc. Then we provide the opportunity, show us your intellect.
+                </div>
               </div>
           </div>
-          <button>EVENT 6</button>
+          <button>Sustainable Design Challenge</button>
     </div>
-    <div class="col-sm-3">
+    <div class="col-sm-3 archBridge">
       <div class="newContainer">
               <img src="./Images/img_avatar.png" class="image">
               <div class="overlay">
-                  <div class="text">Event Description Comes here</div>
+                  <div class="text">An opportunity to show your innovative minds, a challenge of building a bridge without cement! A budding civil engineer here’s your chance to prove how technically sound you’re and lots of goodies to be won.</div>
               </div>
           </div>
-          <button>EVENT 7</button>
+          <button>Arch Bridge</button>
     </div>
-    <div class="col-sm-3">
+    <div class="col-sm-3 traffineer">
       <div class="newContainer">
               <img src="./Images/img_avatar.png" class="image">
               <div class="overlay">
-                  <div class="text">Event Description Comes here</div>
+                  <div class="text">Upset with the traffic and road infrastructure of your city. Want to present your ideas to the whole world to make it better. We give you a chance, to design your own traffic and road layout for your own city and a chance to win big!</div>
               </div>
           </div>
-          <button>EVENT 8</button>
+          <button>Traffineer 1.0</button>
+    </div>
+
+
+    
+  </div>
+
+  <div class="row flexboxRow">
+
+    <div class="col-sm-3 meadPaper">
+      <div class="newContainer active">
+              <img src="./Images/img_avatar.png" class="image">
+              <div class="overlay">
+                  <div class="text" id="longerText">An opportunity to showcase your expertise in the vast array of topics. We give you the topic, write about it, present in front of professionals from the industry. High end exposure, prizes await and what not. Have you heard of any better opportunity? *GEEK ALERT*</div>
+              </div>
+          </div>
+
+          <button>Mead Paper</button>
+
+    </div>
+    <div class="col-sm-3 constrologer">
+      <div class="newContainer">
+              <img src="./Images/img_avatar.png" class="image">
+              <div class="overlay">
+                  <div class="text" id="longerText">Are you a good leader? Can you handle pressure? No, we are not recruiting new captain for Indian Cricket Team. You need to have these qualities and much more to be an entrepreneur in this part of engineering. Are you confident enough to stake your claim in a first of its kind event and compete with the world? We assure you won’t have a better experience than this.</div>
+              </div>
+          </div>
+          <button>Constrologer</button>
     </div>
     
   </div>
 
-  <div class="ui basic modal">
+  <div class="ui basic modal envocist">
     <div class="ui icon header">
     </div>
     <div class="content">
-      <h1>Event Name</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <h1>Envocist</h1>
+      <p>The objective is to design and build a treatment process for removal of particles and organics from the water source. The water source will be provided by the host school. The challenge is to see which team can filter the provided water most effectively and efficiently.
+</p>
     </div>
     <div class="actions">
       <div class="ui red basic cancel inverted button">
@@ -250,14 +281,199 @@
     </div>
   </div>
 
+   <div class="ui basic modal freshMoreChallenge">
+    <div class="ui icon header">
+    </div>
+    <div class="content">
+      <h1>Fresh more Challenge</h1>
+      <p>This event is designed to give each school a flagpole to fly their own colours at the conference and show some school spirit.  However, it won’t be as easy as just putting it together.  Each team will compete to be the fastest team with the best teamwork in order to deduce locations of flagpole parts from clues. At every destination, each team must compete in a series of challenges, some mental and some physical. The competitors will learn of their next location only once they have un-riddled their previous task. 
+</p>
+    </div>
+    <div class="actions">
+      <div class="ui red basic cancel inverted button">
+        Close
+      </div>
+    </div>
+  </div>
+
+   <div class="ui basic modal quizBowl">
+    <div class="ui icon header">
+    </div>
+    <div class="content">
+      <h1>Quiz Bowl</h1>
+      <p>A fun and engaging quiz on basis and fundamentals of civil engineering, testing the perspective of the participant in the field.  It is a mix of thrilling technical questions which will be asked in the form of pictures, time based questions, etc. The team scoring the highest would be winning duo.
+ </p>
+    </div>
+    <div class="actions">
+      <div class="ui red basic cancel inverted button">
+        Close
+      </div>
+    </div>
+  </div>
+
+   <div class="ui basic modal concreteBaseballBat">
+    <div class="ui icon header">
+    </div>
+    <div class="content">
+      <h1>Concrete Baseball Bat</h1>
+      <p>Teams will design and construct a baseball bat made of concrete.  Given the requirements, teams will have a chance to produce the most cost and strength efficient concrete bat. Participants are required to apply the same to a practical application wherein teams striking the ball farthest in the baseball challenge would earn points. Teams having an overall high score would be declared winners.
+</p>
+    </div>
+    <div class="actions">
+      <div class="ui red basic cancel inverted button">
+        Close
+      </div>
+    </div>
+  </div>
+
+   <div class="ui basic modal surveyorChallenge">
+    <div class="ui icon header">
+    </div>
+    <div class="content">
+      <h1>Surveyor Challenge</h1>
+      <p>
+        This competition is to test teams on basic surveying techniques such as distance measurements, levelling, and traversing.<br>
+        The competition will consist one or all of the following events:<br><br>
+        Distance Measurement: Each team will tape and pace several distances between fixed points.<br><br>
+        Levelling: Each team will calculate the elevation of several turning points between one benchmark to another benchmark.<br><br>
+        Traverse: Each team will find the interior angles of a traverse that is made by a series of fixed points.
+
+      </p>
+    </div>
+    <div class="actions">
+      <div class="ui red basic cancel inverted button">
+        Close
+      </div>
+    </div>
+  </div>
+
+   <div class="ui basic modal archBridge">
+    <div class="ui icon header">
+    </div>
+    <div class="content">
+      <h1>Arch Bridge</h1>
+      <p>The participants will be provided with bricks, sand and water along with a supporting arch. They would build a bridge over the arch without using any binding material cement within a given period of time after which the support is removed after which the arch is tested.
+</p>
+    </div>
+    <div class="actions">
+      <div class="ui red basic cancel inverted button">
+        Close
+      </div>
+    </div>
+  </div>
+
+   <div class="ui basic modal traffineer">
+    <div class="ui icon header">
+    </div>
+    <div class="content">
+      <h1>Traffineer 1.0</h1>
+      <p>Teams will be provided with a transportation problem at the time of the challenge and asked to develop a solution. Each team will apply the principles of transportation planning, traffic operations, and highway design to respond to the design problem. The response will be primarily qualitative; thus teams should focus on development of an innovative conceptual design that would provide a long-term transportation solution. Teams will be granted with two hours to prepare a proposed conceptual solution, organize submittal materials, and prepare a 5-minute presentation. Team presentations will be delivered to a panel of judges for review, which could include a short question and answer period.
+</p>
+    </div>
+    <div class="actions">
+      <div class="ui red basic cancel inverted button">
+        Close
+      </div>
+    </div>
+  </div>
+
+   <div class="ui basic modal sustainableDesignChallenge">
+    <div class="ui icon header">
+    </div>
+    <div class="content">
+      <h1>Sustainable Design Challenge</h1>
+      <p>This event provides a platform for students to design efficient and imperishable infrastructure which promotes Sustainable Development. It is a great opportunity for students to think up innovative solutions to the very real sustainable crisis that our generation is going to face.
+</p>
+    </div>
+    <div class="actions">
+      <div class="ui red basic cancel inverted button">
+        Close
+      </div>
+    </div>
+  </div>
+
+   <div class="ui basic modal meadPaper">
+    <div class="ui icon header">
+    </div>
+    <div class="content">
+      <h1>Mead Paper</h1>
+      <p>This event requires the submission of written materials on any given topic (via mail up to a desired time). One the basis if performance, the selected candidates are required to give a formal presentation in the conference. </p>
+    </div>
+    <div class="actions">
+      <div class="ui red basic cancel inverted button">
+        Close
+      </div>
+    </div>
+  </div>
+
+   <div class="ui basic modal constrologer">
+    <div class="ui icon header">
+    </div>
+    <div class="content">
+      <h1>Constrologer</h1>
+      <p>This event is designed to challenge students design skills, construction and core knowledge, presentation skills and their time management skills. You need the skills of an architect, smartness of a project manager and wit of a quantity surveyor. The participants will be working in teams of 3-4 and winners will be decided on the basis of questions answered, AutoCAD file submitted, estimation and costing and project schedule.</p>
+    </div>
+    <div class="actions">
+      <div class="ui red basic cancel inverted button">
+        Close
+      </div>
+    </div>
+  </div>
+
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript" src="./js/semantic.min.js"></script>
 <script type="text/javascript">
   
-  var eventCard = $('.col-sm-3');
+  var constrologer = $('.col-sm-3.constrologer');
+  var envocist = $('.col-sm-3.envocist');
+  var meadPaper = $('.col-sm-3.meadPaper');
+  var sustainableDesignChallenge = $('.col-sm-3.sustainableDesignChallenge');
+  var traffineer = $('.col-sm-3.traffineer');
+  var archBridge = $('.col-sm-3.archBridge');
+  var concreteBaseballBat = $('.col-sm-3.concreteBaseballBat');
+  var surveyorChallenge = $('.col-sm-3.surveyorChallenge');
+  var quizBowl = $('.col-sm-3.quizBowl');
+  var freshMoreChallenge = $('.col-sm-3.freshMoreChallenge');
 
-  eventCard.click(function() {
-    $('.ui.basic.modal').modal('show');  
+  constrologer.click(function() {
+    $('.ui.basic.modal.constrologer').modal('show');  
+  });
+
+  envocist.click(function() {
+    $('.ui.basic.modal.envocist').modal('show');  
+  });
+
+  meadPaper.click(function() {
+    $('.ui.basic.modal.meadPaper').modal('show');  
+  });
+
+  sustainableDesignChallenge.click(function() {
+    $('.ui.basic.modal.sustainableDesignChallenge').modal('show');  
+  });
+
+  traffineer.click(function() {
+    $('.ui.basic.modal.traffineer').modal('show');  
+  });
+
+  archBridge.click(function() {
+    $('.ui.basic.modal.archBridge').modal('show');  
+  });
+
+  concreteBaseballBat.click(function() {
+    $('.ui.basic.modal.concreteBaseballBat').modal('show');  
+  });
+
+  surveyorChallenge.click(function() {
+    $('.ui.basic.modal.surveyorChallenge').modal('show');  
+  });
+
+  quizBowl.click(function() {
+    $('.ui.basic.modal.quizBowl').modal('show');  
+  });
+
+  freshMoreChallenge.click(function() {
+    $('.ui.basic.modal.freshMoreChallenge').modal('show');  
   });
 
   
